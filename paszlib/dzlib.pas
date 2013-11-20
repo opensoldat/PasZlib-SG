@@ -10,8 +10,8 @@
 
 unit dzlib;
 
-{$WARN UNSAFE_TYPE OFF}
-{$WARN UNSAFE_CODE OFF}
+//{$WARN UNSAFE_TYPE OFF}
+//{$WARN UNSAFE_CODE OFF}
 
 interface
 
