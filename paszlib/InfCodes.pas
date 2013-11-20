@@ -16,7 +16,7 @@ interface
 {$I zconf.inc}
 
 uses
-  zutil, gzlib;
+  ZUtil, gZlib;
 
 function inflate_codes_new (bl : uInt;
                             bd : uInt;

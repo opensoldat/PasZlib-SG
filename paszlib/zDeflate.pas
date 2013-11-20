@@ -61,7 +61,7 @@ interface
 {$I zconf.inc}
 
 uses
-  zutil, gzlib;
+  ZUtil, gZlib;
 
 
 function deflateInit_(strm : z_streamp;

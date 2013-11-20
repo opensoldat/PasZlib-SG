@@ -15,7 +15,7 @@ interface
 {$I zconf.inc}
 
 uses
-  zutil, gzlib, zInflate;
+  ZUtil, gZlib, zInflate;
 
 { ===========================================================================
      Decompresses the source buffer into the destination buffer.  sourceLen is

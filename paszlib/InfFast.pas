@@ -18,7 +18,7 @@ interface
 
 {$I zconf.inc}
 
-uses zutil, gzlib;
+uses ZUtil, gZlib;
 
 function inflate_fast( bl : uInt;
                        bd : uInt;

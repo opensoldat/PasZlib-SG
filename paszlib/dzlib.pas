@@ -15,7 +15,7 @@ unit dzlib;
 
 interface
 
-uses gzlib, Sysutils, Classes;
+uses gZlib, Sysutils, Classes;
 
 {$IFDEF VER80}
   {$DEFINE Delphi16}
