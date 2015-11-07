@@ -808,7 +808,7 @@ begin
     s.bi_buf := s.bi_buf or int(value shl s.bi_valid);
     Inc(s.bi_valid, length);
   end;
-  {$IFDEF NoOverflowCheck} {$Q+} {$UNDEF NoOverflowCheck} {$ENDIF}
+  {$IFDEF NoOverflowCheck} {$R+} {$UNDEF NoOverflowCheck} {$ENDIF}
   {$IFDEF NoRangeCheck} {$Q+} {$UNDEF NoRangeCheck} {$ENDIF}
 end;
 
